@@ -35,6 +35,18 @@
    ```sh
      cargo run test/input/input1.txt
    ```
+## Konfigurasi Input File
+    ```bash
+        <jumlah_kota>
+        <data_graf>
+    ```
+    Penjelasan:
+
+    Baris 1: Jumlah kota (n)
+    Baris 2 sampai n+1: Matrix adjacency n×n
+    Element [i][j]: Jarak dari kota i ke kota j
+    Diagonal: Harus 0 (jarak kota ke dirinya sendiri)
+    Simetris: Untuk graf tidak berarah
 
 ## Author
 
