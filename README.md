@@ -36,9 +36,10 @@
      cargo run test/input/input1.txt
    ```
 ## Konfigurasi Input File
-    ```bash
+    ```sh
         <jumlah_kota>
         <data_graf>
+
     ```
     Penjelasan:
 
